@@ -115,7 +115,7 @@ int main(int argc, char **argv) {
     saveName+=to_string(i++);
     saveName+=".pcd";
     pcl::io::savePCDFileASCII(saveName, output_cloud);
-    ROS_INFO_STREAM("Sucessfully save point cloud id:" + to_string(i++));
+    ROS_INFO_STREAM("Sucessfully save point cloud id:" + to_string(i));
 
   }
 
