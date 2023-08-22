@@ -9,4 +9,6 @@
    <param name="lidar_topic" type="string" value="/livox/lidar"/>
    <param name="pcd_file" type="string" value="$(find livox_camera_calib)/result/0.pcd"/>
    <param name="is_custom_msg" type="bool" value="false"/>
+   <param name="is_single_frame_output" type="bool" value="true">\
+   <param name="pcd_path" type="string" value="$(find livox_camera_calib)/result/"/>
 </launch>
